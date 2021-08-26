@@ -1,0 +1,124 @@
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    border-bottom: solid rgba(0, 0, 0, .15) 1px;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.mobileHamburgerMenu {
+    position: relative;
+    left: 40px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.mobileHamburgerMenu div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.nav {
+    margin-top: 70px;
+}
+
+.nav-item a {
+    float: left;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+
+.sidebar {
+    width: 280px;
+    transition: 0.5s;
+}
+
+.sidebar i {
+    float: left;
+    padding: 5px;
+    display: block;
+}
+
+.toggleSidebar {
+    width: 80px;
+    transition: 0.5s;
+}
+
+.active {
+    width: 100%;
+}
+
+.toggleSidebar span {
+    display: none;
+    float: left;
+}
+
+.dropdown {
+    position: relative;
+    right: 15px;
+    top: 15px;
+}
+
+.nameDashboard {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.line {
+    flex-shrink: 0;
+    width: 1px;
+    height: 100vh;
+    border-left: solid rgba(0, 0, 0, .15) 1px;
+}
+
+.content {
+    margin-top: 85px;
+    margin-left: 15px;
+}
+
+.contentSection {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    background-color: #f1f2f7;
+}
+
+.contentSection h5 {
+    font-family: "Poppins", sans-serif;
+}
+
+.contentSection p {
+    font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 766px) {
+
+
+}
+
